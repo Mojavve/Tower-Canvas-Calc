@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Tower Canvas Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="fLoad()">
+            <div id="iWrap">
+                <div id="iFields">
+                        <label for="fname">X Res</label><br>
+                        <input type="text" id="xres" onkeypress="clickPress(event)" autocomplete="off"><br>
+
+                        <label for="lname">Y Res</label><br>
+                        <input type="text" id="yres" onkeypress="clickPress(event)" autocomplete="off">
+
+                        <br> <br>
+                        <label for="fname">X Scale</label><br>
+                        <input type="text" id="xscale" onload="this.value=0" autocomplete="off" readonly><br>
+                        <label for="lname">Y Scale</label><br>
+                        <input type="text" id="yscale" autocomplete="off" readonly>
+                </div>
+            </div>
+        <br>
+        <div id="iButtons">
+            <button id="bcalc" onclick="fCalc()">Calculate</button>
+            <button id="bcalc" onclick="fClear()">Clear</button>
+            <br> <br>
+            <input type="text" id="vURL" onkeypress="clickPressURL(event)" autocomplete="off" size="50px">
+            <button id="bURL" onclick="fURL()">Use URL</button>
+        </div>
+        <script src="js/scripts.js"></script>
+    </body>
+
+</html>

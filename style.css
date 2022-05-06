@@ -1,0 +1,21 @@
+body{background-color:#444444; color:#ead9d9;}
+
+#iWrap {
+    background-color:#747474;
+    border: 1px solid #b1b1b1;
+    border-radius: 15px;
+    width:45%;
+    margin: 0 auto;
+    margin-top:2%;
+    
+    
+}
+#iFields {
+    margin:10px;
+    text-align: center;
+
+}
+
+#iButtons {
+    text-align: center;
+}
